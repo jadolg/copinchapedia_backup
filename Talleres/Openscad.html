@@ -1,0 +1,635 @@
+<!--
+title: Taller de Openscad
+description: 
+published: true
+date: 2020-06-18T16:09:25.334Z
+tags: 
+editor: undefined
+dateCreated: 2020-06-18T00:25:31.072Z
+-->
+
+<p>Hola. Aqui está espacio para construir un taller de Openscad</p>
+<p>Para los interesados en aprender a modelar3D en software opensource, sigan estos cursos en español de Openscad y Freecad:</p>
+<p>Este taller toma como punto de partida &nbsp;los cursos de Obijuanacademy para desarrollar una experiencia educativa de Openscad.</p>
+<p>Intentaremos con las experiencias ir aportando más a este contenido.</p>
+<p>&nbsp;</p>
+<p>Para armar el curso</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Colocar la información de este sitio</p>
+<p>Diseño de piezas con OpenScad</p>
+<p>http://www.iearobotics.com/wiki/index.php?title=Dise%C3%B1o_de_piezas_con_OpenScad</p>
+<p>&nbsp;</p>
+<h2>Primeros pasos con Openscad</h2>
+<h3><strong>1) Cubo Hola mundo</strong></h3>
+<p>&nbsp;</p>
+<figure class="image"><img src="http://www.iearobotics.com/wiki/images/thumb/e/e6/Tut-openscad-01-cubo.png/300px-Tut-openscad-01-cubo.png" alt="" srcset="/wiki/images/thumb/e/e6/Tut-openscad-01-cubo.png/450px-Tut-openscad-01-cubo.png 1.5x, /wiki/images/e/e6/Tut-openscad-01-cubo.png 2x" sizes="100vw" width="300"></figure>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Programa</strong>:</p>
+          <p>//-- Cubo Hola Mundo cube([10,10,10]);</p>
+        </td>
+        <td><a href="http://www.youtube.com/watch?v=xvhbrUSQRTc"><strong>Video Tutorial 1/14</strong></a></td>
+      </tr>
+      <tr>
+        <td colspan="2">&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p style="text-align:center;">El cubo "hola mundo" (<i>click para ampliar</i>)</p>
+<p>&nbsp;</p>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>Los pasos a realizar son los siguientes:</p>
+<ul>
+  <li>Abrir OpenScad</li>
+  <li>Escribir el código del programa</li>
+  <li><strong>Pulsar F5</strong> para renderizar el cubo en pantalla. Lo que se nos ha creado es un cubo de 10mm de arista</li>
+  <li>Con la <strong>rueda</strong> del ratón se hace zoom</li>
+  <li>Pulsando el <strong>botón izquierdo</strong> y moviendo el raton se rota la vista del cubo.</li>
+  <li>Pulsando el <strong>botón central</strong> y moviendo el ratón se hace traslación del punto de vista</li>
+  <li>Por último se graba el programa openscad creado</li>
+  <li>Se <strong>pulsa F6</strong> para hacer un renderizado "bueno"</li>
+  <li>Se exporta la pieza al <strong>formato STL</strong> (view/export as STL)</li>
+  <li>¡¡El cubo está listo para ser impreso en una impresora 3D open-source!!</li>
+</ul>
+<h3><strong>2) Traslaciones y rotaciones</strong></h3>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <th><a href="http://www.youtube.com/watch?v=QMsTnDUkJ1E"><strong>Video Tutorial 2/14</strong></a></th>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<figure class="image"><img src="http://www.iearobotics.com/wiki/images/thumb/2/2d/Tut-openscad-02-Rotacion-traslacion.png/300px-Tut-openscad-02-Rotacion-traslacion.png" alt="" srcset="/wiki/images/thumb/2/2d/Tut-openscad-02-Rotacion-traslacion.png/450px-Tut-openscad-02-Rotacion-traslacion.png 1.5x, /wiki/images/2/2d/Tut-openscad-02-Rotacion-traslacion.png 2x" sizes="100vw" width="300"></figure>
+<p style="text-align:center;">&nbsp;</p>
+<p style="text-align:center;">(<i>click para ampliar</i>)</p>
+<p>&nbsp;</p>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Programa</strong>:</p>
+          <p>//-- Ejemplo de translación y rotación&nbsp;<br>
+            //-- Traslación y rotación de un cubo
+            rotate([0,0,30])
+            &nbsp;translate([50,0,0])
+            &nbsp; &nbsp;cube([20,20,20],center=true);&nbsp;<br>
+            //-- rotación de un cubo
+            rotate([0,0,45])
+            &nbsp;cube([20,20,10],center=true);
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>Las traslaciones y rotaciones se realizan con los operadores <strong>translate()</strong> y <strong>rotate()</strong> respectivamente.</p>
+<h3><strong>3) Cilindros: la navaja suiza</strong></h3>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <th><a href="http://www.youtube.com/watch?v=OdUgqYm5lXQ"><strong>Video Tutorial 3/14</strong></a></th>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<figure class="image"><img src="http://www.iearobotics.com/wiki/images/thumb/4/46/Tut-openscad-03-cilindros.png/300px-Tut-openscad-03-cilindros.png" alt="" srcset="/wiki/images/thumb/4/46/Tut-openscad-03-cilindros.png/450px-Tut-openscad-03-cilindros.png 1.5x, /wiki/images/4/46/Tut-openscad-03-cilindros.png 2x" sizes="100vw" width="300"></figure>
+<p style="text-align:center;">&nbsp;</p>
+<p style="text-align:center;">(<i>click para ampliar</i>)</p>
+<p>&nbsp;</p>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Programa</strong>:</p>
+          <p>//-- Moneda
+            translate([-50,0,0])
+            &nbsp;cylinder(r=40/2, h=5, $fn=100);&nbsp;<br>
+            //-- Hexágono
+            cylinder(r=40/2, h=5, $fn=6);&nbsp;<br>
+            //-- Triángulo equilátero
+            translate([50,0,0])
+            &nbsp;cylinder(r=40/2, h=5, $fn=3);
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>Se muestra la versatilidad de los <strong>cilindros</strong>. Cambiando el parámetro <strong>$fn</strong>, se puede hacer cualquier polígono regular.</p>
+<h3><strong>4) Haciendo taladros</strong></h3>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <th><a href="http://www.youtube.com/watch?v=WJFqa7LUpmA"><strong>Video Tutorial 4/14</strong></a></th>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<figure class="image"><img src="http://www.iearobotics.com/wiki/images/thumb/7/7b/Tut-openscad-04-taladros.png/300px-Tut-openscad-04-taladros.png" alt="" srcset="/wiki/images/thumb/7/7b/Tut-openscad-04-taladros.png/450px-Tut-openscad-04-taladros.png 1.5x, /wiki/images/7/7b/Tut-openscad-04-taladros.png 2x" sizes="100vw" width="300"></figure>
+<p style="text-align:center;">&nbsp;</p>
+<p style="text-align:center;">Una rueda simple (<i>click para ampliar</i>)</p>
+<p>&nbsp;</p>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Programa</strong>:</p>
+          <p>//-- Rueda simple
+            difference() {
+            &nbsp;//-- Base de la rueda
+            &nbsp;cylinder(r=50/2, h=5,$fn=100);<br>
+            &nbsp;//-- Taladro de 8mm
+            &nbsp;cylinder(r=8/2, h=20,$fn=20,center=true);
+            }
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>Utilización de la operación booleana <strong>difference()</strong> y de los <strong>cilindros</strong> para <strong>realizar taladros</strong> a piezas.</p>
+<h3><strong>5) Pegando piezas</strong></h3>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <th><a href="http://www.youtube.com/watch?v=UlM_N_HPhVk"><strong>Video Tutorial 5/14</strong></a></th>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<figure class="image"><img src="http://www.iearobotics.com/wiki/images/thumb/f/f1/Tut-openscad-05-pegando.png/300px-Tut-openscad-05-pegando.png" alt="" srcset="/wiki/images/thumb/f/f1/Tut-openscad-05-pegando.png/450px-Tut-openscad-05-pegando.png 1.5x, /wiki/images/f/f1/Tut-openscad-05-pegando.png 2x" sizes="100vw" width="300"></figure>
+<p style="text-align:center;">&nbsp;</p>
+<p style="text-align:center;">Una rueda con portaejes (<i>click para ampliar</i>)</p>
+<p>&nbsp;</p>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Programa</strong>:</p>
+          <p>//-- Rueda con portaejes y taladro para el eje
+            difference() {
+            &nbsp;//-- Rueda
+            &nbsp;union() {
+            &nbsp; &nbsp;//-- Base de la rueda
+            &nbsp; &nbsp;cylinder(r=50/2, h=5, $fn=100);
+            &nbsp; &nbsp;//-- Portaejes
+            &nbsp; &nbsp;cylinder(r=20/2, h=20, $fn=80);
+            &nbsp;}
+            &nbsp;//-- Taladro
+            &nbsp;cylinder(r=8/2, h=80, $fn=30,center=true);
+            }
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>Utilización de la operación booleana <strong>union()</strong> para pegar objetos</p>
+<h2>Vislumbrando la potencia de openscad</h2>
+<h3><strong>6) Parametrízame!</strong></h3>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <th><a href="http://www.youtube.com/watch?v=86PLSLyK3Bc"><strong>Video Tutorial 6/14</strong></a></th>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<figure class="image"><img src="http://www.iearobotics.com/wiki/images/thumb/3/36/Tut-openscad-06-parametrizame.png/300px-Tut-openscad-06-parametrizame.png" alt="" srcset="/wiki/images/thumb/3/36/Tut-openscad-06-parametrizame.png/450px-Tut-openscad-06-parametrizame.png 1.5x, /wiki/images/3/36/Tut-openscad-06-parametrizame.png 2x" sizes="100vw" width="300"></figure>
+<p style="text-align:center;">&nbsp;</p>
+<p style="text-align:center;">Una rueda parametrizada (<i>click para ampliar</i>)</p>
+<p>&nbsp;</p>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Programa</strong>:</p>
+          <p>&nbsp;//-- Parámetros de la rueda
+            grosor = 5;
+            diametro=50;
+            diam_eje = 8;&nbsp;<br>
+            //-- Construcción de la rueda a partir de
+            //-- los parámetros
+            difference() {
+            &nbsp; //-- Base de la rueda
+            &nbsp; cylinder(r=diametro/2, h=grosor,$fn=100);&nbsp;<br>
+            &nbsp; //-- Taladro del eje
+            &nbsp; cylinder(r=diam_eje/2, h=3*grosor,$fn=20,center=true);
+            }
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>Rueda paramétrica: La rueda se define por unos <strong>parámetros</strong>, y luego se construye la rueda usando esos parámetros</p>
+<h3><strong>7) Modularízame!</strong></h3>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <th><a href="http://www.youtube.com/watch?v=irMSrEzh0JM"><strong>Video Tutorial 7/14</strong></a></th>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<figure class="image"><img src="http://www.iearobotics.com/wiki/images/thumb/f/f6/Tut-openscad-07-modularizame.png/300px-Tut-openscad-07-modularizame.png" alt="" srcset="/wiki/images/thumb/f/f6/Tut-openscad-07-modularizame.png/450px-Tut-openscad-07-modularizame.png 1.5x, /wiki/images/f/f6/Tut-openscad-07-modularizame.png 2x" sizes="100vw" width="300"></figure>
+<p style="text-align:center;">&nbsp;</p>
+<p style="text-align:center;">Rueda modularizada (<i>click para ampliar</i>)</p>
+<p>&nbsp;</p>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Programa</strong>:</p>
+          <p>module rueda_simple(grosor, diametro, diam_eje)
+            {
+            &nbsp;//-- Construcción de la rueda a partir de
+            &nbsp;//-- los parámetros
+            &nbsp;difference() {
+            &nbsp; &nbsp;//-- Base de la rueda
+            &nbsp; &nbsp;cylinder(r=diametro/2, h=grosor,$fn=100);
+            &nbsp; &nbsp;//-- Taladro del eje
+            &nbsp; &nbsp;cylinder(r=diam_eje/2, h=3*grosor,$fn=20,center=true);
+            &nbsp;}
+            }&nbsp;<br>
+            rueda_simple(diametro=50, grosor=5, diam_eje=8);<br>
+            translate([50,0,0])
+            &nbsp;rueda_simple(diametro=40, grosor=20, diam_eje=10);
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>Convirtiendo la rueda en un <strong>módulo</strong> para poder <strong>reutilizarla</strong> fácilmente</p>
+<h3><strong>8) Parámetros por defecto</strong></h3>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <th><a href="http://www.youtube.com/watch?v=Tf5NCHbjfqI"><strong>Video Tutorial 8/14</strong></a></th>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<figure class="image"><img src="http://www.iearobotics.com/wiki/images/thumb/8/87/Tut-openscad-08-def-params.png/300px-Tut-openscad-08-def-params.png" alt="" srcset="/wiki/images/thumb/8/87/Tut-openscad-08-def-params.png/450px-Tut-openscad-08-def-params.png 1.5x, /wiki/images/8/87/Tut-openscad-08-def-params.png 2x" sizes="100vw" width="300"></figure>
+<p style="text-align:center;">&nbsp;</p>
+<p style="text-align:center;">Rueda modularizada con parámetros por defecto (<i>click para ampliar</i>)</p>
+<p>&nbsp;</p>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Programa</strong>:</p>
+          <p>module rueda_simple(grosor=5, diametro=40, diam_eje=8)
+            {
+            &nbsp;//-- Construcción de la rueda a partir de
+            &nbsp;//-- los parámetros
+            &nbsp;difference() {
+            &nbsp; &nbsp;//-- Base de la rueda
+            &nbsp; &nbsp;cylinder(r=diametro/2, h=grosor,$fn=100);&nbsp;<br>
+            &nbsp; &nbsp;//-- Taladro del eje
+            &nbsp; &nbsp;cylinder(r=diam_eje/2, h=3*grosor,$fn=20,center=true);
+            &nbsp;}
+            }<br>
+            //-- Ejemplos de utilizacion del modulo Rueda simple
+            //-- Rueda por defecto
+            rueda_simple();<br>
+            translate([50,0,0])
+            &nbsp;rueda_simple(grosor=20);&nbsp;<br>
+            translate([-50,0,0])
+            &nbsp;rueda_simple(diametro=20, grosor=10);
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>Dando <strong>parámetros por defecto</strong> al módulo de la <strong>rueda simple</strong> para facilitar su utilización</p>
+<h3><strong>9) Usando módulos</strong></h3>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <th><a href="http://www.youtube.com/watch?v=wZt9ROx2_Co"><strong>Video Tutorial 9/14</strong></a></th>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<figure class="image"><img src="http://www.iearobotics.com/wiki/images/thumb/8/8e/Tut-openscad-09-usando-modulos.png/300px-Tut-openscad-09-usando-modulos.png" alt="" srcset="/wiki/images/thumb/8/8e/Tut-openscad-09-usando-modulos.png/450px-Tut-openscad-09-usando-modulos.png 1.5x, /wiki/images/8/8e/Tut-openscad-09-usando-modulos.png 2x" sizes="100vw" width="300"></figure>
+<p style="text-align:center;">&nbsp;</p>
+<p style="text-align:center;">Un coche simple (<i>click para ampliar</i>)</p>
+<p>&nbsp;</p>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Programa</strong>:</p>
+          <p>//-- Ejemplo sencillo de como utilizar los modulos
+            use &lt;rueda_simple.scad&gt;&nbsp;<br>
+            //-- Chasis del cohe
+            translate([30,0,0])
+            &nbsp;cube([100,60,10],center=true);&nbsp;<br>
+            //-- Rueda delantera izquierda
+            translate([0,-30,0])
+            rotate([90,0,0])
+            &nbsp; rueda_simple();&nbsp;<br>
+            //-- Rueda trasera izquierda
+            translate([60,-30,0])
+            &nbsp;rotate([90,0,0])
+            &nbsp; &nbsp;rueda_simple(grosor=20, diametro=50);&nbsp;<br>
+            //-- Lado derecho del coche. Es simetrico con respecto
+            //-- al izquierdo
+            mirror([0,1,0]) {
+            &nbsp;//-- Rueda delantera derecha
+            &nbsp;translate([0,-30,0])
+            &nbsp; &nbsp;rotate([90,0,0])
+            &nbsp; &nbsp; &nbsp;rueda_simple();&nbsp;<br>
+            &nbsp;//-- Rueda trasera derecha
+            &nbsp;translate([60,-30,0])
+            &nbsp; &nbsp;rotate([90,0,0])
+            &nbsp; &nbsp; &nbsp;rueda_simple(grosor=20, diametro=50);
+            }
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>Utilización del módulo rueda simple para construir un coche sencillo</p>
+<h3><strong>10) Repitiendo tareas</strong></h3>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <th><a href="http://www.youtube.com/watch?v=J5nCIrlQj_g"><strong>Video Tutorial 10/14</strong></a></th>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<figure class="image"><img src="http://www.iearobotics.com/wiki/images/thumb/7/75/Tut-openscad-10-usando-modulos.png/300px-Tut-openscad-10-usando-modulos.png" alt="" srcset="/wiki/images/thumb/7/75/Tut-openscad-10-usando-modulos.png/450px-Tut-openscad-10-usando-modulos.png 1.5x, /wiki/images/7/75/Tut-openscad-10-usando-modulos.png 2x" sizes="100vw" width="300"></figure>
+<p style="text-align:center;">&nbsp;</p>
+<p style="text-align:center;">Una tira variable de cilindros para hacer taladros (<i>click para ampliar</i>)</p>
+<p>&nbsp;</p>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Programa</strong>:</p>
+          <p>drill=4;
+            h1=10;
+            d=10;
+            n = 20;<br>
+            for (i=[0:n-1]) {
+            &nbsp;translate([i*d,0,0])
+            &nbsp; cylinder(r=drill/2, h=h1, $fn=20,center=true);
+            }
+
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>Se crean <strong>multiples cilindros</strong> utilizando un <strong>bucle for</strong></p>
+<h2>Ejemplo 1: Piezas de mecano básicas</h2>
+<p>En este bloque utilizaremos lo que hemos aprendido para <strong>cerrar el ciclo de diseño</strong>. Diseñaremos una <strong>pieza de mecano simple</strong> y la <strong>imprimiremos</strong> en la impresora 3D opensource. Durante el diseño se introducen también algunos conceptos nuevos</p>
+<h3><strong>11) Pieza de mecano parametrizable I</strong></h3>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <th><a href="http://www.youtube.com/watch?v=YHg5QApmFO4"><strong>Video Tutorial 11/14</strong></a></th>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<figure class="image"><img src="http://www.iearobotics.com/wiki/images/thumb/f/f2/Tut-openscad-11-usando-modulos.png/300px-Tut-openscad-11-usando-modulos.png" alt="" srcset="/wiki/images/thumb/f/f2/Tut-openscad-11-usando-modulos.png/450px-Tut-openscad-11-usando-modulos.png 1.5x, /wiki/images/f/f2/Tut-openscad-11-usando-modulos.png 2x" sizes="100vw" width="300"></figure>
+<p style="text-align:center;">&nbsp;</p>
+<p style="text-align:center;">Pieza de mecano parametrizada (<i>click para ampliar</i>)</p>
+<p>&nbsp;</p>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Programa</strong>:</p>
+          <p>drill=3;
+            d=10;
+            n = 4;&nbsp;<br>
+            lx = n*d;
+            anchura = 10;
+            grosor = 3;<br>
+            difference() {
+            &nbsp;//-- Cuerpo de la pieza
+            &nbsp;cube([lx,anchura,grosor],center=true);&nbsp;<br>
+            &nbsp;//-- Taladros
+            &nbsp;translate([-lx/2+d/2,0,0])
+            &nbsp; &nbsp;for (i=[0:n-1]) {
+            &nbsp; &nbsp; &nbsp;translate([i*d,0,0])
+            &nbsp; &nbsp; &nbsp; &nbsp;cylinder(r=drill/2, h=grosor+5, $fn=20,center=true);
+            &nbsp;}
+            }
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>En este ejemplo se construye la pieza de mecano básica</p>
+<h3><strong>12) Pieza de Mecano parametrizable II</strong></h3>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <th><a href="http://www.youtube.com/watch?v=2u9gaYx6j7w"><strong>Video Tutorial 12/14</strong></a></th>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<figure class="image"><img src="http://www.iearobotics.com/wiki/images/thumb/c/c9/Tut-openscad-12-pieza-mecano-2.png/300px-Tut-openscad-12-pieza-mecano-2.png" alt="" srcset="/wiki/images/thumb/c/c9/Tut-openscad-12-pieza-mecano-2.png/450px-Tut-openscad-12-pieza-mecano-2.png 1.5x, /wiki/images/c/c9/Tut-openscad-12-pieza-mecano-2.png 2x" sizes="100vw" width="300"></figure>
+<p style="text-align:center;">&nbsp;</p>
+<p style="text-align:center;">Pieza de mecano parametrizada, convertida en un módulo y con parámetros por defecto (<i>click para ampliar</i>)</p>
+<p>&nbsp;</p>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Programa</strong>:</p>
+          <p>module pieza_mecano(n=4, drill=4, d=10, anchura=10, grosor=3)
+            {
+            &nbsp;//-- Calcular al longitud de la pieza
+            &nbsp;lx = n*d;<br>
+            &nbsp;//-- Construir la pieza
+            &nbsp;difference() {
+            &nbsp; &nbsp;//-- Cuerpo de la pieza
+            &nbsp; &nbsp;cube([lx,anchura,grosor],center=true);&nbsp;<br>
+            &nbsp; &nbsp;//-- Taladros
+            &nbsp; &nbsp;translate([-lx/2+d/2,0,0])
+            &nbsp; &nbsp; &nbsp;for (i=[0:n-1]) {
+            &nbsp; &nbsp; &nbsp; &nbsp;translate([i*d,0,0])
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;cylinder(r=drill/2, h=grosor+5, $fn=20,center=true);
+            &nbsp; &nbsp; }
+            &nbsp;}
+            }&nbsp;<br>
+            //-- Ejemplos de utilizacion
+            pieza_mecano();&nbsp;<br>
+            translate([0,20,0])
+            &nbsp;pieza_mecano(n=2);
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>La pieza de mecano se modulariza y se asignan parámetros por defecto</p>
+<h3><strong>Depurando piezas</strong></h3>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <th><a href="http://www.youtube.com/watch?v=X34wjwg3HeU"><strong>Video Tutorial 13/14</strong></a></th>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<figure class="image"><img src="http://www.iearobotics.com/wiki/images/thumb/7/7c/Tut-openscad-13-depurando.png/300px-Tut-openscad-13-depurando.png" alt="" srcset="/wiki/images/thumb/7/7c/Tut-openscad-13-depurando.png/450px-Tut-openscad-13-depurando.png 1.5x, /wiki/images/7/7c/Tut-openscad-13-depurando.png 2x" sizes="100vw" width="300"></figure>
+<p style="text-align:center;">&nbsp;</p>
+<p style="text-align:center;">Depurando y entendiendo una pieza (<i>click para ampliar</i>)</p>
+<p>&nbsp;</p>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Programa</strong>:</p>
+          <p>difference() {&nbsp;<br>
+            //-- Pieza sin taladros
+            union() {
+            &nbsp; //-- Cuerpo
+            &nbsp; color("blue")
+            &nbsp; cube([167.8, 30, 5],center=true);&nbsp;<br>
+            &nbsp; //-- Torre derecha
+            &nbsp; color("green")
+            &nbsp; translate([167.8/2-20/2,0,13/2+5/2])
+            &nbsp; &nbsp; &nbsp;cube([20,30,13],center=true);&nbsp;<br>
+            &nbsp; //-- Torre izquierda
+            &nbsp; color("green")
+            &nbsp; translate([-167.8/2+20/2,0,13/2+5/2])
+            &nbsp; &nbsp; cube([20,30,13],center=true);
+            }&nbsp;<br>
+            //-- Taladros
+            #translate([-167.8/2+10,0,0])
+            &nbsp; cylinder(r=9/2, h=50, center=true);&nbsp;<br>&nbsp;
+            #translate([+167.8/2-10,0,0])
+            &nbsp; cylinder(r=9/2, h=50, center=true);
+            }
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>Se describen algunos modificaciones y operadores para hacer depuración:</p>
+<ul>
+  <li><strong>Operador color()</strong>: Cambiar el color de una pieza o partes de una pieza</li>
+  <li><strong>Modificador *</strong>&nbsp;: Comentar la rama. Se ignora al hacer el renderizado, pero se muestra el resto de objetos</li>
+  <li><strong>Modificador&nbsp;!</strong>&nbsp;: Lo contrario a *: Sólo se muestra el objeto al que se aplica y el resto NO se renderiza</li>
+  <li><strong>Modificador #</strong>&nbsp;: Mostrar en transparente las partes usadas en las diferencias. Genial para ver cómo están hechos los taladros</li>
+</ul>
+<h3><strong>Imprimiendo las piezas de mecano</strong></h3>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <th><a href="http://www.youtube.com/watch?v=w8Cy3gviRsg"><strong>Video Tutorial 14/14</strong></a></th>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<figure class="image"><img src="http://www.iearobotics.com/wiki/images/thumb/8/89/Tut-openscad-14-imprimiendo.png/300px-Tut-openscad-14-imprimiendo.png" alt="" srcset="/wiki/images/thumb/8/89/Tut-openscad-14-imprimiendo.png/450px-Tut-openscad-14-imprimiendo.png 1.5x, /wiki/images/8/89/Tut-openscad-14-imprimiendo.png 2x" sizes="100vw" width="300"></figure>
+<p style="text-align:center;">&nbsp;</p>
+<p style="text-align:center;">Imprimiendo las piezas de mecano (<i>click para ampliar</i>)</p>
+<p>&nbsp;</p>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Programa</strong>:</p>
+          <p>use &lt;pieza_mecano.scad&gt;&nbsp;<br>
+            pieza_mecano();&nbsp;<br>
+            translate([0,15,0])
+            &nbsp;pieza_mecano(n=3);&nbsp;<br>
+            translate([0,30,0])
+            &nbsp;pieza_mecano(n=2);&nbsp;<br>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>Se generan 3 piezas de mecano de 4, 3 y 2 taladros, y se imprimen usando la impresora <a href="http://www.iearobotics.com/wiki/index.php?title=Prusa_Mendel_Iteraci%C3%B3n_2:_R3">R3</a> (Una Prusa mendel iteración 2)</p>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <figure class="image"><img src="http://www.iearobotics.com/wiki/images/thumb/b/b3/DSC05129.JPG/200px-DSC05129.JPG" alt="Imprimiendo las piezas  (click para ampliar)" srcset="/wiki/images/thumb/b/b3/DSC05129.JPG/300px-DSC05129.JPG 1.5x, /wiki/images/thumb/b/b3/DSC05129.JPG/400px-DSC05129.JPG 2x" sizes="100vw" width="200"></figure>
+        </td>
+        <td>
+          <figure class="image"><img src="http://www.iearobotics.com/wiki/images/thumb/6/6c/DSC05130.JPG/200px-DSC05130.JPG" alt="Piezas impresas (click para ampliar)" srcset="/wiki/images/thumb/6/6c/DSC05130.JPG/300px-DSC05130.JPG 1.5x, /wiki/images/thumb/6/6c/DSC05130.JPG/400px-DSC05130.JPG 2x" sizes="100vw" width="200"></figure>
+        </td>
+        <td>
+          <figure class="image"><img src="http://www.iearobotics.com/wiki/images/thumb/f/f1/DSC05133.JPG/200px-DSC05133.JPG" alt="Probando las piezas (click para ampliar)" srcset="/wiki/images/thumb/f/f1/DSC05133.JPG/300px-DSC05133.JPG 1.5x, /wiki/images/thumb/f/f1/DSC05133.JPG/400px-DSC05133.JPG 2x" sizes="100vw" width="200"></figure>
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<h2>Repositorio</h2>
+<p>Los ficheros fuentes están en este repositorio SVN:</p>
+<ul>
+  <li><a href="http://svn.iearobotics.com/tutorial_openscad">http://svn.iearobotics.com/tutorial_openscad</a></li>
+</ul>
+<h2>Licencia</h2>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>Sesión 1</h3>
+<p>&nbsp;</p>
+<h3>Sesión 2</h3>
+<p>&nbsp;</p>
+<h3>Sesión 3</h3>
+<p>&nbsp;</p>

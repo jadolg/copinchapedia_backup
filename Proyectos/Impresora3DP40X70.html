@@ -1,0 +1,251 @@
+<!--
+title: Impresora 3D P40X70
+description: Impresora 3D hecha con perfiles rectangulares de aluminio de 40x70m
+published: true
+date: 2020-07-12T18:37:39.964Z
+tags: 
+editor: undefined
+dateCreated: 2020-06-04T02:43:19.759Z
+-->
+
+<h2>Resumen</h2>
+<h3>Problemática</h3>
+<blockquote>
+  <p><strong>¿Por qué o para qué construimos una impresora 3D?</strong></p>
+</blockquote>
+<p>Ya sea por satisfacción personal, nuevos emprendimientos, reto a la capacidad creativa, visión de futuro; muchos pueden ser los motivos válidos para emprender este proyecto. Espero que estas experiencias nos ayuden a salir adelante y no dudemos en preguntar si tenemos algún tropiezo.</p>
+<p>No es necesario buscar muy profundamente en Internet para encontrar multitud de artículos, videos, tutoriales de todo tipo acerca de cómo y dónde encontrar todo lo necesario para construir, armar o comprar &nbsp;una impresora 3D, la mayoría de ellos nos guían a proveedores, más o menos caros, en China, USA, Europa o Latino América, casi todos ellos inaccesibles desde nuestra peleona isla. Entonces ¿Qué podemos hacer?</p>
+<p>&nbsp;</p>
+<h3>Pregunta</h3>
+<blockquote>
+  <p><strong>¿Es posible, con materiales locales, construir una impresora 3D práctica y funcional?</strong></p>
+</blockquote>
+<p>&nbsp;</p>
+<h3>Hipótesis</h3>
+<p>El arsenal de impresoras matriciales dadas de baja para su función original, puede ser una fuente de componentes críticos (motores, varillas, correas y muchos más) para llevar a buen puerto este proyecto.</p>
+<p>Con perfiles rectangulares de aluminio de 40x70 mm, obtenidos de viejas ventanas o puertas de aluminio y cristal, podemos construir un marco con buenas prestaciones de resistencia para versiones del modelo cartesiano PRUSA i3.</p>
+<p>&nbsp;</p>
+<h3>Objetivos</h3>
+<p>En este material, demostramos que con excepción de algunos componentes casi irremplazables, podemos construir una impresora 3D cartesiana basada en el modelo PRUSA i3 utilizando componentes recuperados de impresoras matriciales dadas de baja para su función original, y construyendo un marco de perfiles rectangulares de aluminio de 40x70. Para ello:</p>
+<ul>
+  <li>Definimos los componentes a utilizar: los fabricados con impresión 3D, los recuperados de impresoras matriciales, y los que importamos).</li>
+  <li>Configuramos un marco con perfiles rectangulares de aluminio 40x70 que sustituya el marco original del modelo PRUSA i3.</li>
+</ul>
+<p>&nbsp;</p>
+<h2>Proceso de Investigación</h2>
+<h3>Definiendo los componentes a utilizar.</h3>
+<p>El listado de componentes necesario incluye una gran cantidad de piezas impresas. La impresión de las piezas fue un aporte de la comunidad Cubanmakers.</p>
+<p>&nbsp;</p>
+<h4>Componentes impresos</h4>
+<p>Para el precio del PLA, tomamos el más económico que pudimos encontrar en Amazon, ($15 para 1kg) .</p>
+<p>&nbsp;</p>
+<p><a href="https://github.com/cubanmakers/3DPrintModels/tree/master/assets/3dprinter/prusa/mk2/files">Repositorio</a></p>
+<p>Si tomamos como referencia el sitio web de PRUSA, entonces las piezas impresas originales constarían alrededor de $ 3.50 cada una, lo que nos daría un total de 12 x 3.50 = $ 42.00, eso para las piezas aquí mostradas, que son SÓLO las IMPRESCINDIBLES</p>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>Imagen</td>
+        <td>Producto</td>
+        <td>Cantidad</td>
+        <td>Descripción</td>
+        <td>Precio</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>
+          <figure class="image"><img src="/soporte_x.png"></figure>
+        </td>
+        <td>Soporte Eje X</td>
+        <td>1</td>
+        <td>Es el soporte del Hot End y el Extrusor en impresoras de extrusión directa</td>
+        <td>$ 3.50</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>
+          <figure class="image"><img src="/soporte_x_back.png"></figure>
+        </td>
+        <td>Soporte Eje X, Back</td>
+        <td>1</td>
+        <td>Es la parte trasera del soporte del Hot End y el Extrusor en impresoras de extrusión directa, en esta parte se montan los rodamientos axiales y se fija la correa que transmite el movimiento en este eje.</td>
+        <td>$ 3.50</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>&nbsp;</p>
+<h4>Componentes recuperados de impresoras matriciales</h4>
+<p>&nbsp;</p>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>Imagen</td>
+        <td>Componente</td>
+        <td>Cantidad</td>
+        <td>Descripción</td>
+      </tr>
+      <tr>
+        <td>
+          <figure class="image"><img src="/motor.jpg">
+            <figcaption>Motor NEMA 17</figcaption>
+          </figure>
+        </td>
+        <td>Motores paso a paso</td>
+        <td>5</td>
+        <td>La impresoras matriciales suelen tener 2 motores, uno más grande que mueve el cabezal de impresión (debemos convertirlo a MONOFASICO, pero son detalles para el tutorial) y otro más pequeño que mueve el sistema de alimentación de papel, utilizaremos ambos motores, 3 deben ser grandes1 para el eje Y,otro para el eje X, y el tercero será el encargado de mover el extrusor, en tanto los pequeños los usaremos en el eje Z.</td>
+      </tr>
+      <tr>
+        <td>
+          <figure class="image"><img src="/varilla_lisa.jpg">
+            <figcaption>Varilla con rodamiento axial</figcaption>
+          </figure>
+        </td>
+        <td>Varillas de acero pulido de 6 u 8 mm</td>
+        <td>6</td>
+        <td>Pueden ser más gruesas también, pero este es el estándard, estas las podemos obtener de las impresoras matriciales que tanto abundan y que serán nuentra principal fuente de recursos locales, por ejemplo las EPSON LX o LQ de carro corto o largo en dependencia de las dimensiones que le demos a nuestro chasis</td>
+      </tr>
+      <tr>
+        <td>
+          <figure class="image"><img src="/correa.jpg"></figure>
+        </td>
+        <td>Correas</td>
+        <td>3</td>
+        <td>Saldrán de las mismas impresoras EPSON LX o LQ en dependencia de las dimensiones que le demos a nuestro chasis. Son las correas que mueven el cabezal de estas impresoras y debemos tener cuidado al extraerlas para no romperlas.</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h4>Componentes importados</h4>
+<p>Para los componentes que estamos obligado a importar, el modo de obtenerlos dependerá de cada quién, pasando por la ayuda de amigos o familiares, en alguna de estas regiones del mundo, a los que le haremos llegar dicha lista y esperemos que nos puedan ayudar. Tal vez sea bueno que distribuyamos el listado entre varios amigos o familiares o que le pidas a cada uno algo diferente, tu sabrás. Lamentablemente no te puedo ayudar en eso, o sí, claro, &nbsp;te puedo dar la lista...</p>
+<p>Esta lista está basada en mi experiencia personal, por lo que puedes encontrar listas algo diferentes si sigues otro tutorial parecido. En la columna "Fuente' aporto el vínculo a los productos que compré por ser los más económicos que puede encontrar. Si puedes comprar mejores, adelante, esto es sólo una referencia.</p>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>Imagen</td>
+        <td>Producto</td>
+        <td>&nbsp;</td>
+        <td>Descripción</td>
+        <td>Fuente</td>
+        <td>Precio</td>
+      </tr>
+      <tr>
+        <td>
+          <figure class="image"><img src="/mega.png"></figure>
+        </td>
+        <td>Arduino MEGA &nbsp;2560 R3</td>
+        <td>1</td>
+        <td>Este es el corazón digital de tu impresora, se encarga de controlar todos los procesos.</td>
+        <td><a href="https://www.amazon.com/Arduino-compatible-Mega2560-Hygo-Five/dp/B07FH82J1K/ref=pd_rhf_se_s_sspa_dk_rhf_search_pt_sub_0_5/140-0970502-2446939?_encoding=UTF8&amp;pd_rd_i=B07FH82J1K&amp;pd_rd_r=82fb666e-80d4-4a6a-93fd-2c2c0fb7332c&amp;pd_rd_w=Bhphm&amp;pd_rd_wg=34z5F&amp;pf_rd_p=8da83a23-58bc-43c8-8d77-9d8d2f8acbc2&amp;pf_rd_r=CFCQKERWCZE0TS0791SF&amp;psc=1&amp;refRID=CFCQKERWCZE0TS0791SF&amp;spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyOFZZQUVPV1gzUVNOJmVuY3J5cHRlZElkPUExMDM2MTcxMjJGSTNCMkk1SzRIRSZlbmNyeXB0ZWRBZElkPUEwODg4MTAwM0QyNlJVWlQzMVFHWiZ3aWRnZXROYW1lPXNwX3JoZl9zZWFyY2gmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl">Amazon</a></td>
+        <td>&nbsp;$ 13.07</td>
+      </tr>
+      <tr>
+        <td>
+          <figure class="image"><img src="/rampas-1-6-rampas-1-5.jpg">
+            <figcaption>Comparación entre RAMPS 1.5 y 1.6</figcaption>
+          </figure>
+        </td>
+        <td>RAMPS 1.6</td>
+        <td>1</td>
+        <td>Mi consejo, ya que este gasto es casi obligatorio compra el mejor que puedas (las variantes son 1.4, 1.5 o 1.6). Las diferencias son mínimas, con mejoras &nbsp;en las conexiones y la disipación</td>
+        <td><a href="https://www.amazon.com/-/es/KINGPRINT-Expansion-Control-Heatsink-Upgraded/dp/B0794YN8XK/ref=sr_1_5?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=1OKLBH2H38GV&amp;dchild=1&amp;keywords=ramps+1.6&amp;qid=1591332213&amp;s=industrial&amp;sprefix=RAMPS%2Cindustrial%2C267&amp;sr=1-5">Amazon</a></td>
+        <td>
+          <p>&nbsp;$ 8.00</p>
+          <p>aproximadamente, quien lo diría. Una joya.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <figure class="image"><img src="/display.jpg"></figure>
+        </td>
+        <td>Pantalla</td>
+        <td>1</td>
+        <td>Te permite controlar la impresora directamente sin usar una PC ya que incluye un lector de tarjetas SD o MircoSD, en el que puedes copiar el archivo a imprimir. Este es método recomendado, ya que cualquier evento en el PC (antivirus, suspensión, ahorro de energía...) nos puede arruinar la impresión</td>
+        <td><a href="https://www.amazon.com/-/es/HiLetgo-Printer-Controller-Display-Arduino/dp/B07X378P8X/ref=sr_1_4?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dchild=1&amp;keywords=3d+printer+display+ramps+1.6&amp;qid=1591331472&amp;s=industrial&amp;sr=1-4">Amazon</a></td>
+        <td>
+          <p>$ 12.99</p>
+          <p>los hay más caros bonitos, táctiles, etc. Lo más importante es que funcione y dure.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <figure class="image"><img src="/stepper_driver_8825.jpg"></figure>
+        </td>
+        <td>Módulos controladores de motores paso a paso para Arduino</td>
+        <td>4</td>
+        <td>Aquí tienes muuuuchas opciones, siempre que diga compatible con A8825 sirve, cómo mínimo necesitas 4, pero mejor comprar algunos más, pués cualquier error puede destruirlos y son baratos.</td>
+        <td><a href="https://www.amazon.com/-/es/Witbot-DRV8825-Stepper-4-Layer-Printer/dp/B01KHLLVVI/ref=sr_1_24?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=1988T450LWF37&amp;dchild=1&amp;keywords=stepper+driver+board&amp;qid=1591332320&amp;s=industrial&amp;sprefix=Stepper+driver%2Cindustrial%2C264&amp;sr=1-24">Amazon</a></td>
+        <td>
+          <p>$ 13.00&nbsp;</p>
+          <p>para 5 unidades&nbsp;</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <figure class="image"><img src="/hotbed.jpg"></figure>
+        </td>
+        <td>Cama caliente</td>
+        <td>1</td>
+        <td>Aquí tambien tienes un montón de variantes disponibles hasta más de $ 200.00, sólo fíjate que tenga incluido el termistor o tendrás que comprarlo aparte y montarlo tú, lo que agrega un poquito de complejidad al proceso..</td>
+        <td><a href="https://www.amazon.com/-/es/Diyeeni-Aluminum-220x220mm-Thermistor-Eelement/dp/B0863KMRBD/ref=sr_1_20?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dchild=1&amp;keywords=mk3+aluminum+heated+bed+with+thermistor&amp;qid=1591333558&amp;refinements=p_n_availability%3A1248818011&amp;rnid=1248817011&amp;s=industrial&amp;sr=1-20">Amazon</a></td>
+        <td>$ 26.49</td>
+      </tr>
+      <tr>
+        <td>
+          <figure class="image"><img src="/v6_bowden_extruder.jpg"></figure>
+        </td>
+        <td>Cabezal</td>
+        <td>&nbsp;</td>
+        <td>Este es uno de los elementos más caros de todo lo que vas a comprar, pero aquí si no debes ahorrar, de este componente depende la calidad final de lo que imprimas y por tanto del trabajo que entreges a tus clientes o amigos, los mejores tienen precios por encima de los $ 50.00, este es un intermedio que cumplirá bastante bien su cometido y que puedes usar tanto en configuración BOWDEN, como DIRECTA, ya llegaremos a eso...&nbsp;</td>
+        <td><a href="https://www.amazon.com/-/es/Gulfcoast-Robotics-Printers-Heatbreak-Thermistor/dp/B07YPYL8LS/ref=sr_1_5?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dchild=1&amp;keywords=3d+printer+E3D+V6+hotend&amp;qid=1591334570&amp;refinements=p_72%3A2661618011&amp;rnid=2661617011&amp;sr=8-5">Amazon</a></td>
+        <td>$ 29.99</td>
+      </tr>
+      <tr>
+        <td>
+          <figure class="image"><img src="/base.jpg"></figure>
+        </td>
+        <td>Base para cama caliente</td>
+        <td>1</td>
+        <td>Cómo en todo lo demás tienes muchas opciones aquí, debes asegurarte que la cama caliente que compres, te sirva, para ello fíjate en las medidas de ambas en este caso son de 8,661" unos 220 mm así que deben ser compatibles.</td>
+        <td><a href="https://www.amazon.com/-/es/BCZAMD-Aluminum-Carriage-Upgrade-Heatbed/dp/B07RKMQHMH/ref=pd_di_sccai_5/140-0970502-2446939?_encoding=UTF8&amp;pd_rd_i=B07RKMQHMH&amp;pd_rd_r=a25cb903-e299-4c6d-8c61-d9473ebe3777&amp;pd_rd_w=nr1E5&amp;pd_rd_wg=UYd7Z&amp;pf_rd_p=61ce50cf-2379-4458-9044-fa8b402c702d&amp;pf_rd_r=8EMC1W5DE74HBJ02DV00&amp;psc=1&amp;refRID=8EMC1W5DE74HBJ02DV00">Amazon</a></td>
+        <td>$ 18.99</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>Hasta aquí las inversiones CASI obligatorias, algunos componente los prodrías fabricar pero eso sería tema de otros proyectos, hagamos números, siempre recuerda que si compras todo en china te puede salir mucho más barato, sólo que demora un poco más en llegar:</p>
+<p>13.07 + 8.00 + 12.99 + 13.00 + 26.49 + 29.99 + 18.99 = 122.53 .... vamos a redondear a $ 150.00, nada mal para una impresora 3D, si buscas verás que por menos de 200 no encuentras una con la cama tan grande, el tamaño de la cama caliente determina el tamaño de las piezas que podrás imprimir.</p>
+<p>Un par de sitios chinos para empezar....&nbsp;</p>
+<p><a href="https://www.alibaba.com/">https://www.alibaba.com/</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="https://es.aliexpress.com/">https://es.aliexpress.com/</a></p>
+<p>&nbsp;</p>
+<h3>Configurando un marco con perfiles rectangulares de aluminio 40x70&nbsp;</h3>
+<p>...</p>
+<h2>Tutorial</h2>
+<p>Cómo funciona la solución?</p>
+<p>Cómo construirla?</p>
+<p>Cómo usarla?</p>
+<h2>Contribuidores</h2>
