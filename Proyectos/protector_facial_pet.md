@@ -2,9 +2,9 @@
 title: Protectores faciales reciclando pepinos
 description: Protectores faciales reciclando pepinos
 published: true
-date: 2020-09-13T06:56:46.450Z
+date: 2020-11-21T15:03:07.039Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-09-13T06:34:20.673Z
 ---
 
@@ -30,7 +30,13 @@ A raíz de esto las máscaras por impresión 3d han sido una solución, pero tie
 
 * Se necesitan adquirir láminas de acetato transparente que no se producen en Cuba.
 
-* El plástico PLA es un material biodegradable que sometido al sudor y humedad se deteriora.
+* El plástico PLA es un material que sometido al sudor y humedad se deteriora.
+
+
+Al PLA a menudo los describen como un material compostable. Pero eso no significa que pueda simplemente tirar las cosas en la pila de abono de su jardín, si tiene una. Para que se degraden correctamente, deben enviarse a instalaciones comerciales de compostaje.
+
+
+Si el PLA termina en un vertedero, estará allí por mucho tiempo, porque es poco probable que esté expuesta a condiciones que ayudarían a descomponerse.
 
 <br>
 
