@@ -2,7 +2,7 @@
 title: Protectores faciales reciclando pepinos
 description: Protectores faciales reciclando pepinos
 published: true
-date: 2020-11-21T15:03:07.039Z
+date: 2020-11-21T15:29:42.362Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-13T06:34:20.673Z
@@ -12,41 +12,37 @@ dateCreated: 2020-09-13T06:34:20.673Z
 
 <br>
 
-## Resumen
+# Resumen
 
-### Problemática
+## Problemática
 
-Durante la crisis causada por la COVID-19 aumenta la escasez de materiales, cada vez acceder a medios de protección para los profesionales de la salud se está volviendo más difícil.
+Durante la crisis causada por la COVID-19 ha aumentado la preocupación sobre cómo acceder a medios de protección para los profesionales de la salud.
 
-A raíz de esto las máscaras por impresión 3d han sido una solución, pero tiene estos inconvenientes:
+A raíz de esto las máscaras por impresión 3d han sido una solución, pero tienen estos inconvenientes:
 
-* La impresión 3D es lenta, se necesita reunir varias impresoras 3D para hacer un proceso rápido que satisfaga la demanda.
+* La impresión 3D es lenta, se necesitaría reunir varias impresoras 3D para hacer un proceso rápido que satisfaga la demanda.
 
 * Cada nueva máquina que se integrara en el sistema aumenta el consumo energético.
 
-* Se necesitan habilidades en la impresión 3D
-
-* Se necesita plástico PLA que no se produce en Cuba.
+* Se necesitan habilidades en la impresión 3D.
 
 * Se necesitan adquirir láminas de acetato transparente que no se producen en Cuba.
 
+* Se necesita plástico PLA que no se produce en Cuba.
+
 * El plástico PLA es un material que sometido al sudor y humedad se deteriora.
 
-
-Al PLA a menudo los describen como un material compostable. Pero eso no significa que pueda simplemente tirar las cosas en la pila de abono de su jardín, si tiene una. Para que se degraden correctamente, deben enviarse a instalaciones comerciales de compostaje.
-
-
-Si el PLA termina en un vertedero, estará allí por mucho tiempo, porque es poco probable que esté expuesta a condiciones que ayudarían a descomponerse.
+* Aunque el PLA es descrito a menudo como un material compostable, esto no significa que se degradaría rápidamente con sólo tirar las cosas la pila de abono de su jardín, si tiene uno. Para que se degraden correctamente, el consumidor debería enviarlo a instalaciones comerciales de compostaje. Si el PLA termina en un vertedero, estará allí por mucho tiempo, porque es poco probable que esté expuesto a condiciones que ayudarían a descomponerse.
 
 <br>
 
-#### Pregunta
+## Pregunta
 
 > ¿Cómo podemos confeccionar rápidamente, protectores faciales con bajo consumo energético y con un material accesible y duradero, en Cuba?
 
 <br>
 
-### Hipótesis
+## Hipótesis
 
 Lo que se busca es una barrera transparente que cubra el rostro permitiendo la visión. En este caso no se requiere protección contra impactos, por tanto, una lámina fina como las de las botellas de plástico de PET es suficiente. La lamina se fabrica en el momento y con la posibilidad de darle una estructura mediante el diseño. Siendo una lámina autoportante.
 
@@ -58,7 +54,7 @@ El PET es barato y el proceso de conformación en la industria es ultra rápido.
 
 <br>
 
-### Objetivos
+## Objetivos
 
 1. Configurar un protector facial usando una botella de plástico PET, que pueda ser confeccionado a partir de operaciones manuales simples accesibles a cualquier cubano.
 
@@ -72,7 +68,7 @@ El PET es barato y el proceso de conformación en la industria es ultra rápido.
 
 <br>
 
-#### Las pantallas protectoras.
+### Las pantallas protectoras.
 
 ![fb_img_15895782996631760.jpg](/38295dae0a2f409d85337e9af681ccd0.jpg)
 
@@ -104,7 +100,7 @@ Las medidas guardan relación con las dimensiones de la tapa. La tapa así se us
 
 <br>
 
-#### Versiones
+### Versiones
 
 ![parte_arriba_botella.jpg](/deb8fdd788c842ac875fefdd2c1cd78c.jpg)
 
@@ -115,18 +111,20 @@ aportado por Alejandro Tamayo Salcines
 
 <br>
 
-#### Las tiras
+### Las tiras
 
 ![05_tira (1).jpg](/6b079ed556d942fc80e95618bab7fbab.jpg)
 
 Solución de tira usando culeros desechables
 
-### 2. Configurar una variante por inyección soplada de plástico PET.
+## 2. Configurar una variante por inyección soplada de plástico PET.
 
-## Tutorial
+# Tutorial
 
 ![IMG-20200612-WA0014.jpg](/590182405ef04d739afe2b9e035f243b.jpg)
 
 ![IMG-20200612-WA0015.jpg](/e4e041e1863b4e909dfb401ba7b8d34c.jpg)
 
 ![IMG-20200612-WA0016.jpg](/81c1b369e21f4dbcaaa2ad13d0b8754c.jpg)
+
+
