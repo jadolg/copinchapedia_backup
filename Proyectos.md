@@ -2,9 +2,9 @@
 title: Proyectos
 description: 
 published: true
-date: 2020-09-16T05:09:35.585Z
+date: 2020-12-15T22:21:51.154Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-04-14T20:32:35.887Z
 ---
 
@@ -29,5 +29,6 @@ También puede usar el **[repositorio](http://git.copincha.org)** para una docum
 - [Robótica educativa *Para desarrollar proyectos colaborativos para apoyar la enseñanza de la robótica en Cuba.*](https://copinchapedia.copincha.org/es/Proyectos/RoboticaEducativa){sfdsdfsdf}
 - [Consola DOT](https://copinchapedia.copincha.org/es/Proyectos/consola_dot)
 - [CNC DOT](https://copinchapedia.copincha.org/es/Proyectos/cnc_dot)
+- [Copinchapedia Offline *Desarrollo de una versión offline para Copinchapedia.*](https://copinchapedia.copincha.org/es/Proyectos/copinchapedia-offline)
 
 {.links-list}
