@@ -2,7 +2,7 @@
 title: Copinchapedia Offline
 description: Copinchapedia Offline
 published: true
-date: 2020-12-15T22:12:49.962Z
+date: 2020-12-15T22:17:27.185Z
 tags: copinchapedia
 editor: markdown
 dateCreated: 2020-12-15T22:10:49.449Z
@@ -15,7 +15,7 @@ dateCreated: 2020-12-15T22:10:49.449Z
 
 Luego de la charla con motivo del DOTS, se pensó en una variante de la Copinchapedia
 
-Las tecnologías que vamos a empezar a explorar serán:
+Las tecnologías que vamos a empezar! a explorar serán:
 
  * [TiddlyWiki]().
  * [Fossil](./fossil).
@@ -60,11 +60,9 @@ La ubicación es:
 
 https://mutabit.com/repos.fossil/copincha/
 
-Si navegamos los archivo (Files) en la opción vista de arbol (Tree View) veremos 
-algo como esto:
+Si navegamos los archivo (Files) en la opción vista de arbol (Tree View) veremos algo como esto:
 
-![](https://docutopia.tupale.co/uploads/upload_030ce64117e58e9cfde32770c785bd1e.png)
-
+![upload_030ce64117e58e9cfde32770c785bd1e.png](/c9ff8db944e24aba92a57cbb1e89bd0e.png)
 
 Hay varias formas de descargar el contenido.
 
@@ -200,8 +198,7 @@ Luego le pedimos a alguno de los administradores que nos de permisos de
 Desarrollador (y eventualmente para subir archivos no versionados).
 El listado de capacidades del nuevo usuario debe lucir así:
 
-![](https://docutopia.tupale.co/uploads/upload_3dbd9968f321ba910dcc226469e7fc4e.png)
-
+![09682bb7f0ec419c9f2ede397e2734d7.png](/09682bb7f0ec419c9f2ede397e2734d7.png)
 
 :::info
 **Importante** Los derechos de *Admin* Administrador y *Setup* deben otorgarse
