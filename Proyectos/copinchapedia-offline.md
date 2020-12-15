@@ -2,7 +2,7 @@
 title: Copinchapedia Offline
 description: Copinchapedia Offline
 published: true
-date: 2020-12-15T22:10:49.449Z
+date: 2020-12-15T22:12:49.962Z
 tags: copinchapedia
 editor: markdown
 dateCreated: 2020-12-15T22:10:49.449Z
