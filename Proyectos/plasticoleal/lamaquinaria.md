@@ -2,9 +2,9 @@
 title: Plástico Leal - La Maquinaria
 description: Para aprender a construir colaborativamente herramientas y máquinas de código abierto para reciclar plástico, usando preferiblemente recursos localmente accesibles.
 published: true
-date: 2020-11-01T22:19:05.140Z
+date: 2020-12-18T20:03:22.652Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-09-22T23:48:17.672Z
 ---
 
@@ -138,14 +138,14 @@ Uno de los beneficios de perder el marco es, por supuesto, un volumen de constru
 
 | Vitaminas					 								 | Cantidad  | Detalles | Conseguido |
 |------------------------------------|-----------|----------------------------------|-|
-| Motor Nema 17		  				 |  5	 	 	   | > 40 N/cm holding torque, flat shaft. Se reduce a 4 por impresora si otro motor es usado para el extrusor. |  |
-| FireLine 0.5 mm 				  				 |  60 m  	 | 0.39 mm también sirve. Es significante cuán largo cortes los hilos. | |
+| Motor Nema 17		  				 |  5	 	 	   | > 40 N/cm holding torque, flat shaft. Se reduce a 4 por impresora si otro motor es usado para el extrusor. | ✓ |
+| FireLine 0.5 mm 				  				 |  60 m  	 | 0.39 mm también sirve. Es significante cuán largo cortes los hilos. | ✓ |
 | Hoja de MDF o Plywood						 |  50x50 cm | Grosor 10-14 mm						 | |
 | Arduino Mega 				  						 |  1	   	   |					  									 |  ✓ |
 | RAMPS 				  									 |  1	     	 |					  											 |  ✓ |
 | Controladores de motor paso a paso (pololu)			  				 |  1	   	   | 			  	     |  ✓ |
 | Cable USB  (tipo B) 				  	 |  1	 |			 |  ✓ |
-| Listón de 40 cm de largo   | 3 | Perfil cuadrado de 15 mm de grosor |   |
+| Listón de 40 cm de largo   | 3 | Perfil cuadrado de 15 mm de grosor | ✓ |
 | Listón de 27.5 cm de largo | 1 |				^^	  											|   |
 | Fuente		  						   | 1 | 12 V, 12.5 A o mayor 							| ✓ |
 | Brida plástica				 										 |  18	     | ancho entre 4 y 5 mm | ✓ |
@@ -154,18 +154,18 @@ Uno de los beneficios de perder el marco es, por supuesto, un volumen de constru
 | Tornillo M3 largo, 45 mm			 		 |  16	     | Ca 1 cm longer than your motor body height. For mounting Mechaduino PCB on motor rear. | |
 | Tornillo M3/M4, largo 14 - 20 mm		 |  4	   	   | For attaching PSU to sheet				 | ✓ |
 | Rodamiento 608		 								 |  8	   	   |  																 | ✓ |
-| Rodamiento 623 con ranura V			 				 |  12	     | 			                             | |
+| Rodamiento 623 con ranura V			 				 |  12	     | 			                           | ✓ |
 | Tubo de PTFE 		  										 |  10 cm	   | Standard bowden, 4 mm outer dia, any inner dia	| ✓ |
 | Tornillo de madera autorroscante ca M3x10	 |  ca 90    | M[2.5-4.5]x10, head diámetro 8-14 mm, non-countersunk. For fastening to ceiling plate | |
 | Tornillo de madera autorroscante M4x45		 |  4	   	 	 | For fastening spool core	| |
 | Tornillo de madera autorroscante M2x[6-14] |  4	   	   | Head diameter ca 4 mm. For mounting Mega onto sheet material. | |
 | Tornillo de madera autorroscante M3x10		 |  18	     | Head diameter 7 mm, length 10 mm Countersunk head. For attaching linerollers on ABC anchors| |
 | Arandela M6 o M8 									 | 	4		     | For capping 608 bearings in place on top of spool core | ✓ |
-| Cinta de 15 hilos de cable			  				 |  5	m      | O cinta de 30 hilos de cable 28AWF with quadrupled wires to/from the heater element ||
+| Cinta de 15 hilos de cable			  				 |  5	m      | O cinta de 30 hilos de cable 28AWF with quadrupled wires to/from the heater element | ✓ |
 | Tuerca M3 Nuts			  										 | 12 | 					 		| ✓ |
-| Extrusor + hot end				  			 |  1	   	 	 | Cualquier configuración que se ajuste a Nema17 debe funcionar | |
+| Extrusor + hot end				  			 |  1	   	 	 | Cualquier configuración que se ajuste a Nema17 debe funcionar | ✓ |
 | Cables de alimentación Rojo y Negro   		 |  ca 2.5	 | Para conectar 12 V a la RAMPS y los Mechaduinos | ✓ |
-| Smart Stepper PCB				  				 |  4	     	 | Sirve tanto la versión de Mechaduino 0.2 como la 0.1 | |
+| Smart Stepper PCB				  				 |  4	     	 | Sirve tanto la versión de Mechaduino 0.2 como la 0.1 | ✓ |
 | Cable Jumper 		  							 |  ca 50	 	 | Para codificar el sistema con 7 colores | ✓ |
 | Regulator 5V 			  							 |  1      	 | Para energizar Mechaduino directamente desde el PSU. Recommended for reliable long term operation | |
 | 5V -> 3V3 level converter				  	 |  1	     	 | para RAMPS i2c <-> Mechaduino. Small breadboard handy for connecting this | |
