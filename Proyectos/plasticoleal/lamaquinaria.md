@@ -2,7 +2,7 @@
 title: Plástico Leal - La Maquinaria
 description: Para aprender a construir colaborativamente herramientas y máquinas de código abierto para reciclar plástico, usando preferiblemente recursos localmente accesibles.
 published: true
-date: 2020-12-18T20:03:22.652Z
+date: 2020-12-18T20:11:51.367Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-22T23:48:17.672Z
@@ -146,7 +146,7 @@ Uno de los beneficios de perder el marco es, por supuesto, un volumen de constru
 | Controladores de motor paso a paso (pololu)			  				 |  1	   	   | 			  	     |  ✓ |
 | Cable USB  (tipo B) 				  	 |  1	 |			 |  ✓ |
 | Listón de 40 cm de largo   | 3 | Perfil cuadrado de 15 mm de grosor | ✓ |
-| Listón de 27.5 cm de largo | 1 |				^^	  											|   |
+| Listón de 27.5 cm de largo | 1 |				^^	  											| ✓ |
 | Fuente		  						   | 1 | 12 V, 12.5 A o mayor 							| ✓ |
 | Brida plástica				 										 |  18	     | ancho entre 4 y 5 mm | ✓ |
 | Tornillo M3, largo 5 mm		 | 16 |					  											 | ✓ |
