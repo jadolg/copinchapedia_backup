@@ -2,9 +2,9 @@
 title: Grupos de chat
 description: Grupos de chat
 published: true
-date: 2020-10-15T15:34:15.998Z
+date: 2021-01-01T22:24:29.030Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-09-08T13:06:11.460Z
 ---
 
@@ -27,7 +27,8 @@ _(Laboratorio de reciclaje de plástico)_
 * [**Trapiche.cu**](http:bit.ly/copincha-trapiche) _(Crear en torno al trapiche)_
 
 
-***
+[**Repositorio**](https://t.me/copincharepo)
+
 
 * [**Plaza Maker (Telegram)**](http://bit.ly/copincha-plazamaker) _(Anuncios para makers)_ 
 
