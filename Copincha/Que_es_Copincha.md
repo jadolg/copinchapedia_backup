@@ -2,9 +2,9 @@
 title: Qué es Copincha?
 description: 
 published: true
-date: 2020-11-14T15:56:36.892Z
+date: 2021-01-11T21:15:23.080Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-05-08T18:00:24.026Z
 ---
 
@@ -15,7 +15,7 @@ dateCreated: 2020-05-08T18:00:24.026Z
 
 **Copincha** es un laboratorio popular, abierto y colaborativo, de creación e innovación tecnológica.
 
-Permite a las personas crear y compartir conocimientos y prácticas tecnológicas, ensayando una cultura sociotécnica de desarrollo local más resiliente a través de la colaboración abierta y la experiencia colectiva.
+Permite a las personas crear y compartir conocimientos y prácticas tecnológicas, ensayando una cultura sociotécnica de desarrollo local resiliente a través de la colaboración abierta y las prácticas ecológicas.
 
 En la jerga local cubana, "pincha" significa trabajo. Copincha así se traduce como trabajo colaborativo. 
 
