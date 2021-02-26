@@ -2,13 +2,11 @@
 title: Laboratorio de fabricacion digital
 description: Laboratorio de fabricacion digital
 published: true
-date: 2021-02-26T20:35:25.948Z
+date: 2021-02-26T20:36:35.378Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-26T20:35:25.948Z
 ---
-
-# Laboratorio de fabricación digital
 
 ## Número de personas
 
