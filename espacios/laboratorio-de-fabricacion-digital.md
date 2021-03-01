@@ -2,11 +2,13 @@
 title: Laboratorio de fabricacion digital
 description: Laboratorio de fabricacion digital
 published: true
-date: 2021-02-26T20:36:35.378Z
+date: 2021-03-01T00:15:07.222Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-26T20:35:25.948Z
 ---
+
+# Laboratorio de fabricación digital.
 
 ## Número de personas
 
@@ -15,7 +17,7 @@ dateCreated: 2021-02-26T20:35:25.948Z
 * * *
 ## Total en gastos en equipamiento
 
-19 989 €
+20 056 €
 
 * * *
 ## Equipamiento
@@ -27,21 +29,21 @@ dateCreated: 2021-02-26T20:35:25.948Z
 | Imagen | Nombre | Descripción | Cantidad | Precio | Total | Enlace |
 | --- | --- | --- | --- | --- | --- | --- |
 |     | Silla |     | 16  |     |     |     |
-| ![](https://i.imgur.com/1UfX5XP.png) | Banco de trabajo |     | 8   | 90 € | 810 € | [amazon.es](https://www.amazon.es/Monster-Racking-Trabajo-Q-Rax-Tornillos/dp/B07RCJ6XBG) |
-| ![](https://i.imgur.com/6yX3GN9.png) | Estante |     | 8   | 30 € | 270 € | [amazon.es](https://www.amazon.es/G-Rack-0010-1-Estanter%C3%ADa-para-Garaje/dp/B082988MVS) |
+| ![](https://i.imgur.com/1UfX5XP.png) | Banco de trabajo |     | 8   | 90 € | 720 € | [amazon.es](https://www.amazon.es/Monster-Racking-Trabajo-Q-Rax-Tornillos/dp/B07RCJ6XBG) |
+| ![](https://i.imgur.com/6yX3GN9.png) | Estante |     | 8   | 30 € | 240 € | [amazon.es](https://www.amazon.es/G-Rack-0010-1-Estanter%C3%ADa-para-Garaje/dp/B082988MVS) |
 | ![](https://i.imgur.com/CAmFOPq.png) | Proyector | 3600 lúmenes | 1   | 359 € | 359 € | [amazon.es](https://www.amazon.es/Acer-Essential-X128H-Proyector-1024x768/dp/B079BXK5MM) |
-**Total:** 6929 €
+**Total:** 1319 €
 
 ### Computadoras
 
 | Imagen | Nombre | Descripción | Cantidad | Precio | Total | Enlace |
 | --- | --- | --- | --- | --- | --- | --- |
-| ![](https://i.imgur.com/w2K6Qmc.png) | Monitor | 24 " | 8   | 109 € | 981 € | [amazon.es](https://www.amazon.es/HP-24w-Monitor-Pixeles-Respuesta/dp/B0732TRXBB) |
-| ![](https://i.imgur.com/DS6zQSF.png) | Ordenador | Core i7, 16 GB RAM, 256 GB SSD, 2 T HDD | 8   | 436 € | 3924 € | [amazon.es](https://www.amazon.es/HP-Elite-8300-Ordenador-Reacondicionado/dp/B07Z67C2G7) |
-| ![](https://i.imgur.com/uOACC44.png) | Mouse y teclado |     | 8   | 26 € | 234 € | [amazon.es](https://www.amazon.es/Logitech-MK270-teclado-inal%C3%A1mbrico-Windows/dp/B00CHHDY66) |
-| ![413JmoWQzCL.AC_SL1000 2.jpg](:/2d571455b2354788bce913e5654f9d5d) | UPS |     | 8   | 39 € | 351 € | [amazon.es](https://www.amazon.es/dp/B01MYBSF09/) |
+| ![](https://i.imgur.com/w2K6Qmc.png) | Monitor | 24 " | 8   | 109 € | 872 € | [amazon.es](https://www.amazon.es/HP-24w-Monitor-Pixeles-Respuesta/dp/B0732TRXBB) |
+| ![](https://i.imgur.com/DS6zQSF.png) | Ordenador | Core i7, 16 GB RAM, 256 GB SSD, 2 T HDD | 8   | 436 € | 3704 € | [amazon.es](https://www.amazon.es/HP-Elite-8300-Ordenador-Reacondicionado/dp/B07Z67C2G7) |
+| ![](https://i.imgur.com/4N4u5G6.png) | Mouse y teclado |     | 8   | 26 € | 208 € | [amazon.es](https://www.amazon.es/Logitech-MK270-teclado-inal%C3%A1mbrico-Windows/dp/B00CHHDY66) |
+| ![](https://i.imgur.com/uOACC44.png)| UPS |     | 8   | 39 € | 312 € | [amazon.es](https://www.amazon.es/dp/B01MYBSF09/) |
 
-**Total:** 6929 € 
+**Total:** 5096 € 
 
 **Herramientas de fabricación digital**
    
@@ -60,16 +62,16 @@ dateCreated: 2021-02-26T20:35:25.948Z
 | Imagen | Nombre | Descripción | Cantidad | Precio | Total | Enlace |
 | --- | --- | --- | --- | --- | --- | --- |
 | ![](https://i.imgur.com/Om9kRL9.png) | Estación de soldadura |     | 2   | 45 € | 90 € | [amazon.es](https://www.amazon.es/dp/B077NWSW6Z) |
-| ![](https://i.imgur.com/xxmhCR2.png) | Juego de soldador de estaño |     | 8  | 33 € | 330 € | [amazon.es](https://www.amazon.es/dp/B07PLTB46N) |
-| ![](https://i.imgur.com/lLCGl7L.png) | Juego de Arduino medio |     | 8  | 25 € | 250 € | [amazon.es](https://www.amazon.es/ELEGOO-Iniciaci%C3%B3n-Alimentaci%C3%B3n-Servomotor-Desarrollo/dp/B01MXGST4I) |
-| ![](https://i.imgur.com/9oekZ8a.png) | Juego de Arduino completo |     | 8  | 55 € | 550 € | [amazon.es](https://www.amazon.es/Conjunto-Completo-Iniciaci%C3%B3n-Controladora-Servomotor/dp/B01MQPT9OD) |
-| ![](https://i.imgur.com/cClLOCH.png) | Juego de sensores para Arduino |     | 16  | 28 € | 280 € | [amazon.es](https://www.amazon.es/ELEGOO-Actualizado-Sensores-Tutorial-Raspberry/dp/B01M2D2TJU) |
-| ![](https://i.imgur.com/z9Rw6Ie.png) | Cable DuPont |     | 48  | 7 € | 210 € | [amazon.es](https://www.amazon.es/Macho-Hembra-Macho-Macho-Hembra-Hembra-Prototipo-Protoboard/dp/B01NGTXASZ/) |
-| ![](https://i.imgur.com/KOiZhqD.png) | Raspberry Pi |     | 16 | 94 € | 940 € | [amazon.es](https://www.amazon.es/LABISTS-Raspberry-Barebone-Disipadores-Ventilador/dp/B07XLK59Z3) |
-| ![](https://i.imgur.com/MisKAvx.png) | Juego básico de Raspberry |     | 16  | 48 € | 480 € | [amazon.es](https://www.amazon.es/Freenove-Raspberry-Processing-Tutorials-Components/dp/B06W54L7B5) |
+| ![](https://i.imgur.com/xxmhCR2.png) | Juego de soldador de estaño |     | 8  | 33 € | 264 € | [amazon.es](https://www.amazon.es/dp/B07PLTB46N) |
+| ![](https://i.imgur.com/lLCGl7L.png) | Juego de Arduino medio |     | 8  | 25 € | 200 € | [amazon.es](https://www.amazon.es/ELEGOO-Iniciaci%C3%B3n-Alimentaci%C3%B3n-Servomotor-Desarrollo/dp/B01MXGST4I) |
+| ![](https://i.imgur.com/9oekZ8a.png) | Juego de Arduino completo |     | 8  | 55 € | 440 € | [amazon.es](https://www.amazon.es/Conjunto-Completo-Iniciaci%C3%B3n-Controladora-Servomotor/dp/B01MQPT9OD) |
+| ![](https://i.imgur.com/cClLOCH.png) | Juego de sensores para Arduino |     | 16  | 28 € | 448 € | [amazon.es](https://www.amazon.es/ELEGOO-Actualizado-Sensores-Tutorial-Raspberry/dp/B01M2D2TJU) |
+| ![](https://i.imgur.com/z9Rw6Ie.png) | Cable DuPont |     | 48  | 7 € | 316 € | [amazon.es](https://www.amazon.es/Macho-Hembra-Macho-Macho-Hembra-Hembra-Prototipo-Protoboard/dp/B01NGTXASZ/) |
+| ![](https://i.imgur.com/KOiZhqD.png) | Raspberry Pi |     | 16 | 94 € | 1504 € | [amazon.es](https://www.amazon.es/LABISTS-Raspberry-Barebone-Disipadores-Ventilador/dp/B07XLK59Z3) |
+| ![](https://i.imgur.com/MisKAvx.png) | Juego básico de Raspberry |     | 16  | 48 € | 768 € | [amazon.es](https://www.amazon.es/Freenove-Raspberry-Processing-Tutorials-Components/dp/B06W54L7B5) |
 | ![](https://i.imgur.com/7vsueYH.png) | Microscopio digital para soldadura  |     | 2  | 269 € | 538 € | [amazon.es](https://www.amazon.es/Microscopio-Andonstar-Ajustable-reparaci%C3%B3n-Soldadura/dp/B07VK52X9C) |
 
-**Total:** 3668 €
+**Total:** 4568 €
 
 ### Herramientas eléctricas manuales
 
@@ -90,7 +92,7 @@ dateCreated: 2021-02-26T20:35:25.948Z
 | ![](https://i.imgur.com/MzeiVo4.png) | Lijadora orbital |     | 1   | 151 € | 151 € | [amazon.es](https://www.amazon.es/Bosch-160-1-Professional-Multilijadora-destornillador/dp/B01FJ8OH3S) |
 | ![](https://i.imgur.com/mrr1cb2.png) | Dremel |     | 1   | 135 € | 135 € | [amazon.es](https://www.amazon.es/Dremel-4000-4-multiherramienta-accesorios-complementos/dp/B0156XTGGO) |
 
-**Total:** 1588 €
+**Total:** 1540 €
 
 ### Herramientas de medición
 
@@ -133,7 +135,7 @@ dateCreated: 2021-02-26T20:35:25.948Z
 | ![](https://i.imgur.com/68LKgp7.png) | Mordaza bloqueable |     | 1   | 17 € | 17 € | [amazon.es](https://www.amazon.es/dp/B07RQZW3WP) |
 | ![](https://i.imgur.com/P46gAsn.png) | Tornillo de banco de trabajo |     | 4   | 58 € | 232 € | [amazon.es](https://www.amazon.es/Stanley-1-83-066-Tornillo-capacidad-fundido/dp/B0015QBHMI) |
 
-**Total:** 649 €
+**Total:** 598 €
 
 ### Medios de protección
 
@@ -147,9 +149,9 @@ dateCreated: 2021-02-26T20:35:25.948Z
 
 | Imagen | Nombre | Descripción | Cantidad | Precio | Total | Enlace |
 | --- | --- | --- | --- | --- | --- | --- |
-| ![](https://i.imgur.com/XFRNuDd.png) | PLA | 1kg, varios colores  | 5  | 17 € | 119 € | [amazon.es](https://www.amazon.es/SIENOC-paquete-filamento-impresora-Impresora/dp/B012C7AIO6) |
-| ![](https://i.imgur.com/PR4tyaK.png) | PETG | 1 kg, varios colores  | 5   | 18 € | 162 € | [amazon.es](https://www.amazon.es/Filamento-1-75mm-Eryone-impresi%C3%B3n-Spool%EF%BC%8CNegro/dp/B07DN35CXQ) |
-| ![](https://i.imgur.com/mgGoS9m.png) | ASA | 1 kg, de un solo color | 5   | 27 € | 189 € | [amazon.es](https://www.amazon.es/Winkle-Filamento-Natural-Impresi%C3%B3n-Bobina/dp/B08LWJDCCH) |
+| ![](https://i.imgur.com/XFRNuDd.png) | PLA | 1kg, varios colores  | 5  | 17 € | 85 € | [amazon.es](https://www.amazon.es/SIENOC-paquete-filamento-impresora-Impresora/dp/B012C7AIO6) |
+| ![](https://i.imgur.com/PR4tyaK.png) | PETG | 1 kg, varios colores  | 5   | 18 € | 90 € | [amazon.es](https://www.amazon.es/Filamento-1-75mm-Eryone-impresi%C3%B3n-Spool%EF%BC%8CNegro/dp/B07DN35CXQ) |
+| ![](https://i.imgur.com/mgGoS9m.png) | ASA | 1 kg, de un solo color | 5   | 27 € | 135 € | [amazon.es](https://www.amazon.es/Winkle-Filamento-Natural-Impresi%C3%B3n-Bobina/dp/B08LWJDCCH) |
 | ![](https://i.imgur.com/JaQAFk0.png) | TPU | 1 kg, varios colores | 5   | 28 € | 140 € | [amazon.es](https://www.amazon.es/YOYI-Filamento-Impresora-dimensional-Transparent/dp/B081ZT6XKD) |
 
-**Total** 610 €
+**Total** 450 €
