@@ -2,7 +2,7 @@
 title: Laboratorio de fabricacion digital
 description: Laboratorio de fabricacion digital
 published: true
-date: 2021-03-01T00:15:07.222Z
+date: 2021-03-03T20:14:09.583Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-26T20:35:25.948Z
@@ -17,7 +17,7 @@ dateCreated: 2021-02-26T20:35:25.948Z
 * * *
 ## Total en gastos en equipamiento
 
-20 056 €
+20 695 €
 
 * * *
 ## Equipamiento
@@ -71,13 +71,14 @@ dateCreated: 2021-02-26T20:35:25.948Z
 | ![](https://i.imgur.com/MisKAvx.png) | Juego básico de Raspberry |     | 16  | 48 € | 768 € | [amazon.es](https://www.amazon.es/Freenove-Raspberry-Processing-Tutorials-Components/dp/B06W54L7B5) |
 | ![](https://i.imgur.com/7vsueYH.png) | Microscopio digital para soldadura  |     | 2  | 269 € | 538 € | [amazon.es](https://www.amazon.es/Microscopio-Andonstar-Ajustable-reparaci%C3%B3n-Soldadura/dp/B07VK52X9C) |
 
-**Total:** 4568 €
+**Total:** 4 568 €
 
 ### Herramientas eléctricas manuales
 
 | Imagen | Nombre | Descripción | Cantidad | Precio | Total | Enlace |
 | --- | --- | --- | --- | --- | --- | --- |
-| ![](https://i.imgur.com/Onsn5QA.png) | Sierra de cable |     | 1   | 297 € | 297 € | [amazon.es](https://www.amazon.es/Bosch-GKS-GCE-Professional-aspiraci%C3%B3n/dp/B0071T3MB2) |
+| ![](https://i.imgur.com/jRR9hUf.png) | Caladora |     | 1   | 105 € | 105 € | [amazon.es](https://www.amazon.es/gp/product/B018GT01JG) |
+| ![](https://i.imgur.com/Onsn5QA.png) | Sierra circular |     | 1   | 297 € | 297 € | [amazon.es](https://www.amazon.es/Bosch-GKS-GCE-Professional-aspiraci%C3%B3n/dp/B0071T3MB2) |
 | ![](https://i.imgur.com/HYlK3Qn.png) | Carril de sierra |     | 2   | 90 € | 180 € | [amazon.es](https://www.amazon.es/Bosch-FSN-1100-Professional-longitud/dp/B007258YOK) |
 | ![](https://i.imgur.com/peiCdzX.png) | Accesorio para sierra |     | 1   | 87 € | 87 € | [amazon.es](https://www.amazon.es/Bosch-FSN-WAN-Professional-Sistema/dp/B007258COC) |
 | ![](https://i.imgur.com/5Qe1Xlk.png) | Unión de carril de sierra |     | 2   | 64 € | 128 € | [amazon.es](https://www.amazon.es/Bosch-PFSN-VEL-Professional-Accesorio/dp/B007259656) |
@@ -89,18 +90,19 @@ dateCreated: 2021-02-26T20:35:25.948Z
 | ![](https://i.imgur.com/ZqRAQLd.png) | Guía de corte con racor para amoladora de metal |     | 1   | 48 € | 48 € | [amazon.es](https://www.amazon.es/Bosch-605-510-292-aspiraci%C3%B3n/dp/B003TWOW3C/) |
 | ![](https://i.imgur.com/0lWxvNw.png) | Juego para taladrar y atornillar | Maletín Bosch 91 unidades | 1   | 48 € | 48 € | [amazon.es](https://www.amazon.es/Bosch-V-Line-Titanio-destornillador-dinamom%C3%A9trico/dp/B00GGKMNTO) |
 | ![](https://i.imgur.com/aVl9Vzs.png) | Juego para taladrar y atornillar | Maletín Bosch 83 unidades | 1   | 39 € | 39 € | [amazon.es](https://www.amazon.es/Bosch-V-Line-Titanio-unidades-atornillar/dp/B00GGKMN58) |
-| ![](https://i.imgur.com/MzeiVo4.png) | Lijadora orbital |     | 1   | 151 € | 151 € | [amazon.es](https://www.amazon.es/Bosch-160-1-Professional-Multilijadora-destornillador/dp/B01FJ8OH3S) |
+| ![](https://i.imgur.com/BOqXWJk.png) | Lijadora orbital |     | 1   | 170 € | 170 € | [amazon.es](https://www.amazon.es/Bosch-GSS-Professional-microfiltro-superficie/dp/B000EBN16K) |
 | ![](https://i.imgur.com/mrr1cb2.png) | Dremel |     | 1   | 135 € | 135 € | [amazon.es](https://www.amazon.es/Dremel-4000-4-multiherramienta-accesorios-complementos/dp/B0156XTGGO) |
+| ![](https://i.imgur.com/xwUP7CB.png) | Estacicion de soldadura |     | 1   | 549 € | 549 € | [amazon.es](https://www.amazon.es/AC-DC-IGBT-dispositivo-200-amperios/dp/B07KRBYY55) |
 
-**Total:** 1540 €
+**Total:** 2 213 €
 
 ### Herramientas de medición
 
 | Imagen | Nombre | Descripción | Cantidad | Precio | Total | Enlace |
 | --- | --- | --- | --- | --- | --- | --- |
-| ![](https://i.imgur.com/8B3cmmX.png) | Pie de rey analógico | Acero inoxidable | 2   | 15 € | 30 € | [amazon.es](https://www.amazon.es/Preciva-Electr%C3%B3nica-Inoxidable-medici%C3%B3n-duradero/dp/B073S69SQ1) |
+| ![](https://i.imgur.com/8B3cmmX.png) | Pie de rey analógico | Acero inoxidable | 1   | 15 € | 15 € | [amazon.es](https://www.amazon.es/Preciva-Electr%C3%B3nica-Inoxidable-medici%C3%B3n-duradero/dp/B073S69SQ1) |
 | ![](https://i.imgur.com/HQkNcQ1.png) | Pie de rey digital | Acero inoxidable | 1   | 21 € | 21 € | [amazon.es](https://www.amazon.es/Preciva-Electr%C3%B3nica-Inoxidable-medici%C3%B3n-duradero/dp/B073S69SQ1) |
-| ![](https://i.imgur.com/Wx3232C.png) | Medidor de ángulos analógico | Acero inoxidable | 2   | 8 € | 16 € | [amazon.es](https://www.amazon.es/Transportador-angulos-Metalico-giratorio-Industrial/dp/B08CH12MVB) |
+| ![](https://i.imgur.com/Wx3232C.png) | Medidor de ángulos analógico | Acero inoxidable | 1   | 8 € | 8 € | [amazon.es](https://www.amazon.es/Transportador-angulos-Metalico-giratorio-Industrial/dp/B08CH12MVB) |
 | ![](https://i.imgur.com/2i3Z1FU.png) | Medidor de ángulos | Digital | 1   | 19 € | 19 € | [amazon.es](https://www.amazon.es/Medidor-angulos-digital-Preciva-medici%C3%B3n/dp/B07F2DM331) |
 | ![](https://i.imgur.com/VpFiGx7.png) | Escuadra simple |     | 1   | 25 € | 25 € | [amazon.es](https://www.amazon.es/Stanley-1-45-687-Escuadra-Carpintero-400mm/dp/B0001IW9EG) |
 | ![](https://i.imgur.com/Gz6WcmR.png) | Escuadra de ángulo |     | 1   | 21 € | 21 € | [amazon.es](https://www.amazon.es/Stanley-Escuadra-%C3%A1ngulo-30-cm/dp/B008DI1B7W) |
@@ -109,10 +111,10 @@ dateCreated: 2021-02-26T20:35:25.948Z
 | ![](https://i.imgur.com/037cydX.png) | Falsa escuadra |     | 1   | 10 € | 10 € | [amazon.es](https://www.amazon.es/Stanley-0-46-825-Falsa-escuadra-200mm/dp/B002V53UKE) |
 | ![](https://i.imgur.com/FDqdKu4.png) | Juego de reglas metálicas | 15 cm, 30 cm, 50 cm | 2   | 10 € | 20 € | [amazon.es](https://www.amazon.es/Wolfcraft-5205000-Escuadra-universal-longitud/dp/B001S2R4DA) |
 | ![](https://i.imgur.com/7qWIXkU.png) | Regla metálica | 90 cm | 2   | 12 € | 24 € | [amazon.es](https://www.amazon.es/Silverline-MT69-Regla-90-cm/dp/B000LFVRLU) |
-| ![](https://i.imgur.com/Y7FJYOB.png) | Cinta métrica | 5m  | 2   | 6 € | 12 € | [amazon.es](https://www.amazon.es/ox-t029105-M%C3%A9tricas-comercio-cinta-m%C3%A9trica-negro/dp/B075SJ7X9J) |
+| ![](https://i.imgur.com/Y7FJYOB.png) | Cinta métrica | 5m  | 1   | 6 € | 12 € | [amazon.es](https://www.amazon.es/ox-t029105-M%C3%A9tricas-comercio-cinta-m%C3%A9trica-negro/dp/B075SJ7X9J) |
 | ![](https://i.imgur.com/1xrpUGo.png) | Nivel |     | 1   | 20 € | 20 € | [amazon.es](https://www.amazon.es/Bosch-Professional-Nivel-burbuja-25/dp/B07J274RJG) |
 
-**Total:** 259 €
+**Total:** 234 €
 
 ### Herramientas manuales
 
