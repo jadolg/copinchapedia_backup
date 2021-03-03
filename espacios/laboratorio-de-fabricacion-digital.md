@@ -2,7 +2,7 @@
 title: Laboratorio de fabricacion digital
 description: Laboratorio de fabricacion digital
 published: true
-date: 2021-03-03T20:14:09.583Z
+date: 2021-03-03T20:25:19.070Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-26T20:35:25.948Z
@@ -20,9 +20,14 @@ dateCreated: 2021-02-26T20:35:25.948Z
 20 695 €
 
 * * *
+
 ## Equipamiento
 
 ### Acceso a Internet
+
+### Software
+
+[Aquí](https://github.com/geobruce/FabLab) hay un listado de los programas de código abierto que aprendemos y usamos.
 
 ### Mobiliario
 
