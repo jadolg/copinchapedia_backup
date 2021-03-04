@@ -2,13 +2,20 @@
 title: Laboratorio de fabricacion digital
 description: Laboratorio de fabricacion digital
 published: true
-date: 2021-03-03T20:25:19.070Z
+date: 2021-03-04T00:11:41.080Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-26T20:35:25.948Z
 ---
 
 # Laboratorio de fabricación digital.
+
+Para la seleccion, las herramientas deben:
+
+* Soportar el uso frecuente de las personas.
+* Acercarse a las experiencias de uso previa y las posibilidades de reparacion y mantenimiento en Cuba.
+* Cubrir el mayor rango de trabajos.
+* Cumplir con los requerimientos minimos para vincularse y colaborar en la comunidad fablab.io.
 
 ## Número de personas
 
@@ -78,7 +85,11 @@ dateCreated: 2021-02-26T20:35:25.948Z
 
 **Total:** 4 568 €
 
-### Herramientas eléctricas manuales
+### Herramientas manuales
+
+Las herramientas manuales complementan el trabajo de fabricación digital, tanto para preparar materiales previamente, cómo para el montaje posterior de piezas fabricadas digitalmente.
+
+#### Herramientas eléctricas manuales
 
 | Imagen | Nombre | Descripción | Cantidad | Precio | Total | Enlace |
 | --- | --- | --- | --- | --- | --- | --- |
