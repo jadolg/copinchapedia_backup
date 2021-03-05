@@ -2,13 +2,11 @@
 title: Laboratorio de fabricacion digital
 description: Laboratorio de fabricacion digital
 published: true
-date: 2021-03-04T00:11:41.080Z
+date: 2021-03-05T01:15:13.780Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-26T20:35:25.948Z
 ---
-
-# Laboratorio de fabricación digital.
 
 Para la seleccion, las herramientas deben:
 
